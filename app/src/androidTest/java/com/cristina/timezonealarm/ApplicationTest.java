@@ -1,4 +1,4 @@
-package  com.cristina.timezonealarm;
+package com.cristina.timezonealarm;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
