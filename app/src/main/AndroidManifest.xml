@@ -3,6 +3,7 @@
     package="com.cristina.timezonealarm" >
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -43,7 +44,10 @@
             android:name=".MyBroadcastReceiver"
             android:process=":remote" />
 
-
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="afc5ace285db7a91aeb12575238031ef0aedd0bb"
+            />
 
     </application>
 
