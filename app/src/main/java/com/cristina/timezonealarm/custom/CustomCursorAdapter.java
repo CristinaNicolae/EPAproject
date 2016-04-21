@@ -4,9 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.widget.SimpleCursorAdapter;
 
-/**
- * Created by Cristina on 3/14/2015.
- */
+
 public class CustomCursorAdapter extends SimpleCursorAdapter {
 
 
